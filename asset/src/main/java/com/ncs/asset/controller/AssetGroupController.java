@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ncs.asset.model.AssetGroup;
 import com.ncs.asset.repository.AssetGroupRepository;
+import com.ncs.asset.repository.AssetsRepository;
 
 @RestController
 public class AssetGroupController {
