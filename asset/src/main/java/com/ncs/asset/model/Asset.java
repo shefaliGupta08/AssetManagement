@@ -21,11 +21,11 @@ public class Asset {
 
     @Id    
     @GeneratedValue
-    private int assetId;
+    private Long assetId;
 
  
 
-    public void setAssetId(int assetId) {
+    public void setAssetId(long assetId) {
         this.assetId = assetId;
     }
 
@@ -188,7 +188,7 @@ public class Asset {
 
  
 
-    public int getAssetId() {
+    public long getAssetId() {
         return assetId;
     }
 
